@@ -1,71 +1,129 @@
-## Advanced Styling with Painters for Feature Layers
+# LuciadRIA Canopy Rendering Prototype
 
-For a comprehensive guide on styling vector layers, refer to the following article:
-- [Painter Documentation](https://dev.luciad.com/portal/productDocumentation/LuciadRIA/docs/articles/tutorial/getting_started/vector_styling.html)
+This project provides an interactive 3D map visualization using
+**LuciadRIA**, focused on rendering canopy features as colored cubes
+with dynamic heights and styles.
 
-### Introduction to Painters
+## Project Structure
 
-In LuciadRIA, every `FeatureLayer` requires a painter to render geometries on the screen using the specified colors and styles. If a painter is not explicitly assigned, LuciadRIA defaults to using the `BasicFeaturePainter`, as demonstrated in the `WFS` example.
+### 1. `LuciadMap.tsx`
 
-The `BasicFeaturePainter` is suitable for basic visualization needs where the appearance of features is not a priority. It offers limited customization options. For more extensive customization, creating a custom painter provides the flexibility to style features according to specific requirements.
+-   React functional component for setting up the **LuciadRIA WebGL
+    map**.
+-   Initializes a `FeatureLayer` backed by a `FeatureModel`
+    containing canopy data. The FeatureModel retrieves data from `StreamableJSONStore`
+-   Integrates the **custom painter** (`CanopyPainter`) for rendering
+    cubes.
 
-### Creating a Custom Painter
 
-To develop a custom painter, extend the `FeaturePainter` class and implement the `paintBody` and, if necessary, `paintLabel` methods. Here's an example:
+### 2. `StreamableJSONStore.ts`
 
+`StreamableJSONStore` is a custom data store implementation extending LuciadRIA’s Feature `Store`.  
+It provides **incremental (streaming) loading of JSON features** instead of loading everything at once.
+
+It initially retrieves an index file (`grid-metadata.json` file)  that describes the structure of the dataset
+
+The `grid-metadata.json` will point to each individual file that represents a tile.
+
+Each tile is selfcontain and it contains enough data for to reconstrunt the cubes inside.
+g-r0c0.json.gz
+
+
+
+
+### 4. `CanopyPainter.ts`
+
+-   Custom `FeaturePainter` that controls how canopy features are drawn.
+-   Uses `Icon3DStyle` cylinders to represent cubes with variable
+    heights and colors.
+-   Implements color mapping based on **owner ID** (1--10).
+-   Features marked as **selected** are lightened for emphasis.
+-   Features with `unavailable=true` are rendered transparent.
+-   Includes utilities for:
+  -   Extracting cube heights (`minH`, `maxH`).
+  -   Rendering polygons and file-based features with
+      `availability_rate`.
+  -   Adjusting colors with a `lightenColor` function.
+
+## How It Works
+
+1.  **Data Flow**:\
+    `StreamableJSONStore` → assigned to a  → `FeatureModel` → feeds into
+    `FeatureLayer` → painted by `CanopyPainter`. As user zooms and pans `StreamableJSONStore.spatialQuery` is called with the new bounds and zoom level to load that the tiles visible on the screen
+
+
+2.  **Rendering**:
+
+  -   Cubes are drawn in 3D with colors per owner ID.\
+  -   Selection highlights and availability-based styling are applied
+      dynamically.\
+  -   Currently, the bounds and file-based features are rendered so that the cubes are easy to find.
+
+## Requirements
+
+-   **LuciadRIA**
+-   React + TypeScript
+-   WebGL-enabled browser
+
+## Running the Project
+
+1.  Install dependencies:
+
+    ``` bash
+    npm install
+    ```
+
+2.  Start the development server:
+
+    ``` bash
+    npm run dev
+    ```
+
+3.  Open the application in your browser (default:
+    `http://localhost:5173`).
+
+
+# Data representation
+### Entry 
+Metadata file (grid-metadata.json)
 ```typescript
-class YourCustomPainter extends FeaturePainter {
-    paintBody(geoCanvas: GeoCanvas, feature: Feature, shape: Shape, layer: Layer, map: Map, paintState: PaintState) {
-        // Your custom code to draw the shape's body goes here...
-        geoCanvas.drawShape(shape, style);
-    }
+type StreamableBSONGrid = {
+  originLon: number;            // degrees (EPSG:4326)
+  originLat: number;            // degrees (EPSG:4326)
+  width: number;                // total number of columns (cells) across the whole grid
+  height: number;               // total number of rows (cells) across the whole grid
+  chunkSize: number;            // nominal chunk side length in cells (e.g., 256)
+  totalChunksX: number;         // number of chunk columns
+  totalChunksY: number;         // number of chunk rows
+  boundingBox: [minLon, minLat, maxLon, maxLat]; // degrees
+  lookup: LookupEntry[][];      // 2D array [row][col] with per-chunk metadata and file path
+}
+```
+## Chunk file (Chunk)
 
-    paintLabel(labelCanvas: LabelCanvas, feature: Feature, shape: Shape, layer: Layer, map: Map, paintState: PaintState) {
-      // Your custom code to draw the shape's labe goes here...
-        const name = feature.properties.STATE_NAME;
-        const label = `<div class="painter_state_label"><span>${name}</span></div>`;
-        labelCanvas.drawLabel(label, shape, {});
-    }
+A chunk file (gzipped JSON) contains:
+```typescript
+interface Chunk {
+  lon: number;      // bottom-left longitude of this chunk (degrees)
+  lat: number;      // bottom-left latitude of this chunk (degrees)
+  width: number;    // cells across in this chunk (may be < chunkSize at edges)
+  height: number;   // cells high in this chunk (may be < chunkSize at edges)
+  cells: Cell[];    // flat row-major array, length = width * height
+}
+```
+## Cell (Cell)
+
+Each entry in cells[]:
+```typescript
+interface Cell {
+  a: boolean;       // available? (true → create a feature)
+  o?: number;       // owner id (0 = free, >0 = owner id)
+  minH?: number;    // minimum height (meters)
+  maxH?: number;    // maximum height (meters)
 }
 ```
 
-- `FeaturePainter.paintBody`: Renders the feature's shape on the map.
-- `FeaturePainter.paintLabel`: Renders a label at the feature's location.
+## License
 
-### Drawing Methods
-
-- **GeoCanvas Methods**:
-    - `GeoCanvas.drawShape`: Draws polylines and polygons.
-    - `GeoCanvas.drawIcon`: Draws an icon at a point's location.
-    - `GeoCanvas.drawIcon3D`: Draws a 3D icon at a point's location.
-
-For further details, explore the [GeoCanvas API](https://dev.luciad.com/portal/productDocumentation/LuciadRIA/docs/reference/LuciadRIA/interfaces/_luciad_ria_view_style_GeoCanvas.GeoCanvas.html).
-
-- **LabelCanvas Methods**:
-    - `LabelCanvas.drawLabel`: Draws labels at a point.
-    - `LabelCanvas.drawLabelInPath`: Draws a label inside a polygon.
-    - `LabelCanvas.drawLabelOnPath`: Draws a label along a line.
-
-For more information, refer to the [LabelCanvas API](https://ldp.luciad.com/portal/productDocumentation/LuciadRIA/docs/reference/LuciadRIA/interfaces/_luciad_ria_view_style_LabelCanvas.LabelCanvas.html).
-
-### Conditional Styling
-
-The appearance of a feature can be dynamically adjusted based on its properties or status (e.g., selected, hovered). For more insights, see the [PaintState documentation](https://dev.luciad.com/portal/productDocumentation/LuciadRIA/docs/reference/LuciadRIA/interfaces/_luciad_ria_view_feature_FeaturePainter.PaintState.html).
-
-#### Example of Conditional Styling
-
-```typescript
-paintBody(geoCanvas: GeoCanvas, feature: Feature, shape: Shape, layer: Layer, map: Map, paintState: PaintState) {
-    const style = paintState.selected ? selectedStyle : normalStyle;
-    if (paintState.hovered) {
-        style.height = 20;
-        style.width = 20;
-    } else {
-        style.height = 16;
-        style.width = 16;
-    }
-    geoCanvas.drawIcon(shape, style);
-}
-```
-
-This example demonstrates how to alter the icon size based on whether a feature is hovered over or selected, providing a more interactive and visually responsive user experience.
+This project is provided under the license terms defined by Luciad
+(Hexagon). See the file headers for details.

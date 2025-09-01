@@ -14,7 +14,7 @@ export interface Cell {
     a: boolean;
 
     /** Owner id  (only present if available, 0 means free, o>0 means owner id) */
-    o?: boolean;
+    o?: number;
 
     /** Minimum height (only if available) */
     minH?: number;
