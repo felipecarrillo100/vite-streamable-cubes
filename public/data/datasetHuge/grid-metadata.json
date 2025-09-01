@@ -1,0 +1,1841 @@
+{
+  "originLon": -74,
+  "originLat": 40.7,
+  "width": 1000,
+  "height": 1000,
+  "chunkSize": 64,
+  "totalChunksX": 16,
+  "totalChunksY": 16,
+  "boundingBox": [
+    -74,
+    40.7,
+    -73.98815097481767,
+    40.7089831528412
+  ],
+  "lookup": [
+    [
+      {
+        "file": "g-r0c0.json.gz",
+        "minH": 10,
+        "maxH": 80,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r0c1.json.gz",
+        "minH": 6,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.953125
+      },
+      {
+        "file": "g-r0c2.json.gz",
+        "minH": 5,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.83203125
+      },
+      {
+        "file": "g-r0c3.json.gz",
+        "minH": 11,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r0c4.json.gz",
+        "minH": 5,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r0c5.json.gz",
+        "minH": 5,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78125
+      },
+      {
+        "file": "g-r0c6.json.gz",
+        "minH": 11,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.88671875
+      },
+      {
+        "file": "g-r0c7.json.gz",
+        "minH": 5,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r0c8.json.gz",
+        "minH": 5,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.98046875
+      },
+      {
+        "file": "g-r0c9.json.gz",
+        "minH": 12,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r0c10.json.gz",
+        "minH": 5,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r0c11.json.gz",
+        "minH": 5,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r0c12.json.gz",
+        "minH": 12,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8125
+      },
+      {
+        "file": "g-r0c13.json.gz",
+        "minH": 5,
+        "maxH": 61,
+        "availability_rate": 1,
+        "occupancy_rate": 0.953125
+      },
+      {
+        "file": "g-r0c14.json.gz",
+        "minH": 5,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r0c15.json.gz",
+        "minH": 13,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.96875
+      }
+    ],
+    [
+      {
+        "file": "g-r1c0.json.gz",
+        "minH": 7,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r1c1.json.gz",
+        "minH": 3,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.87109375
+      },
+      {
+        "file": "g-r1c2.json.gz",
+        "minH": 2,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.796875
+      },
+      {
+        "file": "g-r1c3.json.gz",
+        "minH": 8,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9609375
+      },
+      {
+        "file": "g-r1c4.json.gz",
+        "minH": 3,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r1c5.json.gz",
+        "minH": 2,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7109375
+      },
+      {
+        "file": "g-r1c6.json.gz",
+        "minH": 9,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9375
+      },
+      {
+        "file": "g-r1c7.json.gz",
+        "minH": 3,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9609375
+      },
+      {
+        "file": "g-r1c8.json.gz",
+        "minH": 3,
+        "maxH": 66,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r1c9.json.gz",
+        "minH": 9,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7265625
+      },
+      {
+        "file": "g-r1c10.json.gz",
+        "minH": 2,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r1c11.json.gz",
+        "minH": 2,
+        "maxH": 69,
+        "availability_rate": 1,
+        "occupancy_rate": 0.765625
+      },
+      {
+        "file": "g-r1c12.json.gz",
+        "minH": 9,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.875
+      },
+      {
+        "file": "g-r1c13.json.gz",
+        "minH": 2,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7734375
+      },
+      {
+        "file": "g-r1c14.json.gz",
+        "minH": 2,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r1c15.json.gz",
+        "minH": 10,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.875
+      }
+    ],
+    [
+      {
+        "file": "g-r2c0.json.gz",
+        "minH": 7,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r2c1.json.gz",
+        "minH": 3,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9765625
+      },
+      {
+        "file": "g-r2c2.json.gz",
+        "minH": 2,
+        "maxH": 69,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7109375
+      },
+      {
+        "file": "g-r2c3.json.gz",
+        "minH": 8,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r2c4.json.gz",
+        "minH": 3,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r2c5.json.gz",
+        "minH": 2,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.98046875
+      },
+      {
+        "file": "g-r2c6.json.gz",
+        "minH": 9,
+        "maxH": 63,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r2c7.json.gz",
+        "minH": 3,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r2c8.json.gz",
+        "minH": 3,
+        "maxH": 65,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6015625
+      },
+      {
+        "file": "g-r2c9.json.gz",
+        "minH": 9,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.79296875
+      },
+      {
+        "file": "g-r2c10.json.gz",
+        "minH": 2,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.82421875
+      },
+      {
+        "file": "g-r2c11.json.gz",
+        "minH": 2,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7265625
+      },
+      {
+        "file": "g-r2c12.json.gz",
+        "minH": 9,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r2c13.json.gz",
+        "minH": 2,
+        "maxH": 67,
+        "availability_rate": 1,
+        "occupancy_rate": 0.82421875
+      },
+      {
+        "file": "g-r2c14.json.gz",
+        "minH": 2,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.98046875
+      },
+      {
+        "file": "g-r2c15.json.gz",
+        "minH": 10,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.75
+      }
+    ],
+    [
+      {
+        "file": "g-r3c0.json.gz",
+        "minH": 10,
+        "maxH": 85,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r3c1.json.gz",
+        "minH": 6,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.984375
+      },
+      {
+        "file": "g-r3c2.json.gz",
+        "minH": 5,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.83984375
+      },
+      {
+        "file": "g-r3c3.json.gz",
+        "minH": 11,
+        "maxH": 86,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8984375
+      },
+      {
+        "file": "g-r3c4.json.gz",
+        "minH": 6,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.80859375
+      },
+      {
+        "file": "g-r3c5.json.gz",
+        "minH": 6,
+        "maxH": 80,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r3c6.json.gz",
+        "minH": 13,
+        "maxH": 85,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r3c7.json.gz",
+        "minH": 7,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.94140625
+      },
+      {
+        "file": "g-r3c8.json.gz",
+        "minH": 7,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.79296875
+      },
+      {
+        "file": "g-r3c9.json.gz",
+        "minH": 14,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.85546875
+      },
+      {
+        "file": "g-r3c10.json.gz",
+        "minH": 6,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.82421875
+      },
+      {
+        "file": "g-r3c11.json.gz",
+        "minH": 6,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r3c12.json.gz",
+        "minH": 13,
+        "maxH": 79,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r3c13.json.gz",
+        "minH": 5,
+        "maxH": 66,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7421875
+      },
+      {
+        "file": "g-r3c14.json.gz",
+        "minH": 5,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7890625
+      },
+      {
+        "file": "g-r3c15.json.gz",
+        "minH": 13,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9375
+      }
+    ],
+    [
+      {
+        "file": "g-r4c0.json.gz",
+        "minH": 10,
+        "maxH": 82,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r4c1.json.gz",
+        "minH": 5,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.82421875
+      },
+      {
+        "file": "g-r4c2.json.gz",
+        "minH": 5,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r4c3.json.gz",
+        "minH": 11,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9453125
+      },
+      {
+        "file": "g-r4c4.json.gz",
+        "minH": 9,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.68359375
+      },
+      {
+        "file": "g-r4c5.json.gz",
+        "minH": 9,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r4c6.json.gz",
+        "minH": 17,
+        "maxH": 89,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r4c7.json.gz",
+        "minH": 13,
+        "maxH": 82,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r4c8.json.gz",
+        "minH": 12,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.74609375
+      },
+      {
+        "file": "g-r4c9.json.gz",
+        "minH": 18,
+        "maxH": 84,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r4c10.json.gz",
+        "minH": 8,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r4c11.json.gz",
+        "minH": 8,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.58984375
+      },
+      {
+        "file": "g-r4c12.json.gz",
+        "minH": 13,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7265625
+      },
+      {
+        "file": "g-r4c13.json.gz",
+        "minH": 5,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7109375
+      },
+      {
+        "file": "g-r4c14.json.gz",
+        "minH": 5,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.87890625
+      },
+      {
+        "file": "g-r4c15.json.gz",
+        "minH": 12,
+        "maxH": 66,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      }
+    ],
+    [
+      {
+        "file": "g-r5c0.json.gz",
+        "minH": 7,
+        "maxH": 80,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r5c1.json.gz",
+        "minH": 3,
+        "maxH": 67,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9609375
+      },
+      {
+        "file": "g-r5c2.json.gz",
+        "minH": 3,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.94140625
+      },
+      {
+        "file": "g-r5c3.json.gz",
+        "minH": 9,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7265625
+      },
+      {
+        "file": "g-r5c4.json.gz",
+        "minH": 8,
+        "maxH": 79,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r5c5.json.gz",
+        "minH": 8,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r5c6.json.gz",
+        "minH": 17,
+        "maxH": 82,
+        "availability_rate": 1,
+        "occupancy_rate": 0.62890625
+      },
+      {
+        "file": "g-r5c7.json.gz",
+        "minH": 14,
+        "maxH": 82,
+        "availability_rate": 1,
+        "occupancy_rate": 0.67578125
+      },
+      {
+        "file": "g-r5c8.json.gz",
+        "minH": 13,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.89453125
+      },
+      {
+        "file": "g-r5c9.json.gz",
+        "minH": 18,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.609375
+      },
+      {
+        "file": "g-r5c10.json.gz",
+        "minH": 7,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.765625
+      },
+      {
+        "file": "g-r5c11.json.gz",
+        "minH": 6,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r5c12.json.gz",
+        "minH": 11,
+        "maxH": 80,
+        "availability_rate": 1,
+        "occupancy_rate": 0.87109375
+      },
+      {
+        "file": "g-r5c13.json.gz",
+        "minH": 2,
+        "maxH": 69,
+        "availability_rate": 1,
+        "occupancy_rate": 0.85546875
+      },
+      {
+        "file": "g-r5c14.json.gz",
+        "minH": 2,
+        "maxH": 67,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r5c15.json.gz",
+        "minH": 10,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      }
+    ],
+    [
+      {
+        "file": "g-r6c0.json.gz",
+        "minH": 7,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8046875
+      },
+      {
+        "file": "g-r6c1.json.gz",
+        "minH": 3,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.80859375
+      },
+      {
+        "file": "g-r6c2.json.gz",
+        "minH": 3,
+        "maxH": 62,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9765625
+      },
+      {
+        "file": "g-r6c3.json.gz",
+        "minH": 9,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.890625
+      },
+      {
+        "file": "g-r6c4.json.gz",
+        "minH": 9,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8359375
+      },
+      {
+        "file": "g-r6c5.json.gz",
+        "minH": 9,
+        "maxH": 69,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7578125
+      },
+      {
+        "file": "g-r6c6.json.gz",
+        "minH": 18,
+        "maxH": 92,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6953125
+      },
+      {
+        "file": "g-r6c7.json.gz",
+        "minH": 16,
+        "maxH": 85,
+        "availability_rate": 1,
+        "occupancy_rate": 0.796875
+      },
+      {
+        "file": "g-r6c8.json.gz",
+        "minH": 16,
+        "maxH": 88,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9296875
+      },
+      {
+        "file": "g-r6c9.json.gz",
+        "minH": 19,
+        "maxH": 92,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r6c10.json.gz",
+        "minH": 7,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r6c11.json.gz",
+        "minH": 7,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9609375
+      },
+      {
+        "file": "g-r6c12.json.gz",
+        "minH": 11,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.89453125
+      },
+      {
+        "file": "g-r6c13.json.gz",
+        "minH": 2,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.96875
+      },
+      {
+        "file": "g-r6c14.json.gz",
+        "minH": 2,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r6c15.json.gz",
+        "minH": 10,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      }
+    ],
+    [
+      {
+        "file": "g-r7c0.json.gz",
+        "minH": 11,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r7c1.json.gz",
+        "minH": 7,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8984375
+      },
+      {
+        "file": "g-r7c2.json.gz",
+        "minH": 6,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.96484375
+      },
+      {
+        "file": "g-r7c3.json.gz",
+        "minH": 13,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.80859375
+      },
+      {
+        "file": "g-r7c4.json.gz",
+        "minH": 14,
+        "maxH": 79,
+        "availability_rate": 1,
+        "occupancy_rate": 0.76171875
+      },
+      {
+        "file": "g-r7c5.json.gz",
+        "minH": 14,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.91015625
+      },
+      {
+        "file": "g-r7c6.json.gz",
+        "minH": 25,
+        "maxH": 94,
+        "availability_rate": 1,
+        "occupancy_rate": 0.77734375
+      },
+      {
+        "file": "g-r7c7.json.gz",
+        "minH": 24,
+        "maxH": 91,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r7c8.json.gz",
+        "minH": 24,
+        "maxH": 84,
+        "availability_rate": 1,
+        "occupancy_rate": 0.94140625
+      },
+      {
+        "file": "g-r7c9.json.gz",
+        "minH": 25,
+        "maxH": 94,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8046875
+      },
+      {
+        "file": "g-r7c10.json.gz",
+        "minH": 12,
+        "maxH": 79,
+        "availability_rate": 1,
+        "occupancy_rate": 0.98828125
+      },
+      {
+        "file": "g-r7c11.json.gz",
+        "minH": 12,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.85546875
+      },
+      {
+        "file": "g-r7c12.json.gz",
+        "minH": 15,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8671875
+      },
+      {
+        "file": "g-r7c13.json.gz",
+        "minH": 6,
+        "maxH": 67,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8203125
+      },
+      {
+        "file": "g-r7c14.json.gz",
+        "minH": 6,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6875
+      },
+      {
+        "file": "g-r7c15.json.gz",
+        "minH": 13,
+        "maxH": 79,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      }
+    ],
+    [
+      {
+        "file": "g-r8c0.json.gz",
+        "minH": 9,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r8c1.json.gz",
+        "minH": 5,
+        "maxH": 66,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9609375
+      },
+      {
+        "file": "g-r8c2.json.gz",
+        "minH": 5,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r8c3.json.gz",
+        "minH": 11,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.828125
+      },
+      {
+        "file": "g-r8c4.json.gz",
+        "minH": 12,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8203125
+      },
+      {
+        "file": "g-r8c5.json.gz",
+        "minH": 12,
+        "maxH": 85,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r8c6.json.gz",
+        "minH": 23,
+        "maxH": 95,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r8c7.json.gz",
+        "minH": 22,
+        "maxH": 85,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r8c8.json.gz",
+        "minH": 21,
+        "maxH": 93,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r8c9.json.gz",
+        "minH": 23,
+        "maxH": 90,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r8c10.json.gz",
+        "minH": 11,
+        "maxH": 85,
+        "availability_rate": 1,
+        "occupancy_rate": 0.97265625
+      },
+      {
+        "file": "g-r8c11.json.gz",
+        "minH": 10,
+        "maxH": 80,
+        "availability_rate": 1,
+        "occupancy_rate": 0.734375
+      },
+      {
+        "file": "g-r8c12.json.gz",
+        "minH": 13,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8203125
+      },
+      {
+        "file": "g-r8c13.json.gz",
+        "minH": 5,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9453125
+      },
+      {
+        "file": "g-r8c14.json.gz",
+        "minH": 5,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r8c15.json.gz",
+        "minH": 12,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.875
+      }
+    ],
+    [
+      {
+        "file": "g-r9c0.json.gz",
+        "minH": 7,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.51171875
+      },
+      {
+        "file": "g-r9c1.json.gz",
+        "minH": 3,
+        "maxH": 65,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r9c2.json.gz",
+        "minH": 3,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.94140625
+      },
+      {
+        "file": "g-r9c3.json.gz",
+        "minH": 9,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.80859375
+      },
+      {
+        "file": "g-r9c4.json.gz",
+        "minH": 8,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78125
+      },
+      {
+        "file": "g-r9c5.json.gz",
+        "minH": 8,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8046875
+      },
+      {
+        "file": "g-r9c6.json.gz",
+        "minH": 17,
+        "maxH": 88,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r9c7.json.gz",
+        "minH": 15,
+        "maxH": 84,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6875
+      },
+      {
+        "file": "g-r9c8.json.gz",
+        "minH": 14,
+        "maxH": 82,
+        "availability_rate": 1,
+        "occupancy_rate": 0.453125
+      },
+      {
+        "file": "g-r9c9.json.gz",
+        "minH": 18,
+        "maxH": 90,
+        "availability_rate": 1,
+        "occupancy_rate": 0.765625
+      },
+      {
+        "file": "g-r9c10.json.gz",
+        "minH": 7,
+        "maxH": 79,
+        "availability_rate": 1,
+        "occupancy_rate": 0.70703125
+      },
+      {
+        "file": "g-r9c11.json.gz",
+        "minH": 6,
+        "maxH": 63,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r9c12.json.gz",
+        "minH": 11,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r9c13.json.gz",
+        "minH": 2,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r9c14.json.gz",
+        "minH": 2,
+        "maxH": 69,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r9c15.json.gz",
+        "minH": 10,
+        "maxH": 66,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8125
+      }
+    ],
+    [
+      {
+        "file": "g-r10c0.json.gz",
+        "minH": 7,
+        "maxH": 79,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r10c1.json.gz",
+        "minH": 3,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.89453125
+      },
+      {
+        "file": "g-r10c2.json.gz",
+        "minH": 3,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.95703125
+      },
+      {
+        "file": "g-r10c3.json.gz",
+        "minH": 9,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.97265625
+      },
+      {
+        "file": "g-r10c4.json.gz",
+        "minH": 8,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.98046875
+      },
+      {
+        "file": "g-r10c5.json.gz",
+        "minH": 8,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8046875
+      },
+      {
+        "file": "g-r10c6.json.gz",
+        "minH": 17,
+        "maxH": 85,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9609375
+      },
+      {
+        "file": "g-r10c7.json.gz",
+        "minH": 13,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9296875
+      },
+      {
+        "file": "g-r10c8.json.gz",
+        "minH": 13,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.68359375
+      },
+      {
+        "file": "g-r10c9.json.gz",
+        "minH": 18,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9375
+      },
+      {
+        "file": "g-r10c10.json.gz",
+        "minH": 7,
+        "maxH": 66,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9765625
+      },
+      {
+        "file": "g-r10c11.json.gz",
+        "minH": 6,
+        "maxH": 64,
+        "availability_rate": 1,
+        "occupancy_rate": 0.88671875
+      },
+      {
+        "file": "g-r10c12.json.gz",
+        "minH": 11,
+        "maxH": 81,
+        "availability_rate": 1,
+        "occupancy_rate": 0.890625
+      },
+      {
+        "file": "g-r10c13.json.gz",
+        "minH": 2,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.875
+      },
+      {
+        "file": "g-r10c14.json.gz",
+        "minH": 2,
+        "maxH": 67,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r10c15.json.gz",
+        "minH": 10,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      }
+    ],
+    [
+      {
+        "file": "g-r11c0.json.gz",
+        "minH": 11,
+        "maxH": 84,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r11c1.json.gz",
+        "minH": 7,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.96875
+      },
+      {
+        "file": "g-r11c2.json.gz",
+        "minH": 6,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.76953125
+      },
+      {
+        "file": "g-r11c3.json.gz",
+        "minH": 12,
+        "maxH": 80,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8515625
+      },
+      {
+        "file": "g-r11c4.json.gz",
+        "minH": 9,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.82421875
+      },
+      {
+        "file": "g-r11c5.json.gz",
+        "minH": 9,
+        "maxH": 65,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9609375
+      },
+      {
+        "file": "g-r11c6.json.gz",
+        "minH": 16,
+        "maxH": 87,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r11c7.json.gz",
+        "minH": 11,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.890625
+      },
+      {
+        "file": "g-r11c8.json.gz",
+        "minH": 11,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.890625
+      },
+      {
+        "file": "g-r11c9.json.gz",
+        "minH": 17,
+        "maxH": 82,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90625
+      },
+      {
+        "file": "g-r11c10.json.gz",
+        "minH": 9,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7109375
+      },
+      {
+        "file": "g-r11c11.json.gz",
+        "minH": 8,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6640625
+      },
+      {
+        "file": "g-r11c12.json.gz",
+        "minH": 14,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8125
+      },
+      {
+        "file": "g-r11c13.json.gz",
+        "minH": 6,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6796875
+      },
+      {
+        "file": "g-r11c14.json.gz",
+        "minH": 6,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r11c15.json.gz",
+        "minH": 14,
+        "maxH": 80,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      }
+    ],
+    [
+      {
+        "file": "g-r12c0.json.gz",
+        "minH": 9,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r12c1.json.gz",
+        "minH": 5,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.87890625
+      },
+      {
+        "file": "g-r12c2.json.gz",
+        "minH": 4,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 0.96484375
+      },
+      {
+        "file": "g-r12c3.json.gz",
+        "minH": 10,
+        "maxH": 84,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r12c4.json.gz",
+        "minH": 5,
+        "maxH": 80,
+        "availability_rate": 1,
+        "occupancy_rate": 0.62890625
+      },
+      {
+        "file": "g-r12c5.json.gz",
+        "minH": 5,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.5703125
+      },
+      {
+        "file": "g-r12c6.json.gz",
+        "minH": 11,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.74609375
+      },
+      {
+        "file": "g-r12c7.json.gz",
+        "minH": 5,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.73046875
+      },
+      {
+        "file": "g-r12c8.json.gz",
+        "minH": 5,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8203125
+      },
+      {
+        "file": "g-r12c9.json.gz",
+        "minH": 12,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r12c10.json.gz",
+        "minH": 4,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.890625
+      },
+      {
+        "file": "g-r12c11.json.gz",
+        "minH": 4,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.89453125
+      },
+      {
+        "file": "g-r12c12.json.gz",
+        "minH": 11,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8671875
+      },
+      {
+        "file": "g-r12c13.json.gz",
+        "minH": 4,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78125
+      },
+      {
+        "file": "g-r12c14.json.gz",
+        "minH": 4,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r12c15.json.gz",
+        "minH": 12,
+        "maxH": 83,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      }
+    ],
+    [
+      {
+        "file": "g-r13c0.json.gz",
+        "minH": 7,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r13c1.json.gz",
+        "minH": 3,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.984375
+      },
+      {
+        "file": "g-r13c2.json.gz",
+        "minH": 2,
+        "maxH": 63,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8515625
+      },
+      {
+        "file": "g-r13c3.json.gz",
+        "minH": 8,
+        "maxH": 67,
+        "availability_rate": 1,
+        "occupancy_rate": 0.71484375
+      },
+      {
+        "file": "g-r13c4.json.gz",
+        "minH": 3,
+        "maxH": 67,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r13c5.json.gz",
+        "minH": 2,
+        "maxH": 67,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r13c6.json.gz",
+        "minH": 9,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r13c7.json.gz",
+        "minH": 3,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.7265625
+      },
+      {
+        "file": "g-r13c8.json.gz",
+        "minH": 3,
+        "maxH": 69,
+        "availability_rate": 1,
+        "occupancy_rate": 0.86328125
+      },
+      {
+        "file": "g-r13c9.json.gz",
+        "minH": 9,
+        "maxH": 79,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r13c10.json.gz",
+        "minH": 2,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.89453125
+      },
+      {
+        "file": "g-r13c11.json.gz",
+        "minH": 2,
+        "maxH": 60,
+        "availability_rate": 1,
+        "occupancy_rate": 0.71484375
+      },
+      {
+        "file": "g-r13c12.json.gz",
+        "minH": 9,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r13c13.json.gz",
+        "minH": 2,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r13c14.json.gz",
+        "minH": 2,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.921875
+      },
+      {
+        "file": "g-r13c15.json.gz",
+        "minH": 10,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      }
+    ],
+    [
+      {
+        "file": "g-r14c0.json.gz",
+        "minH": 7,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.609375
+      },
+      {
+        "file": "g-r14c1.json.gz",
+        "minH": 3,
+        "maxH": 69,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r14c2.json.gz",
+        "minH": 2,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8515625
+      },
+      {
+        "file": "g-r14c3.json.gz",
+        "minH": 8,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.81640625
+      },
+      {
+        "file": "g-r14c4.json.gz",
+        "minH": 3,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r14c5.json.gz",
+        "minH": 2,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.98046875
+      },
+      {
+        "file": "g-r14c6.json.gz",
+        "minH": 9,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r14c7.json.gz",
+        "minH": 3,
+        "maxH": 65,
+        "availability_rate": 1,
+        "occupancy_rate": 0.98046875
+      },
+      {
+        "file": "g-r14c8.json.gz",
+        "minH": 3,
+        "maxH": 64,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r14c9.json.gz",
+        "minH": 9,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r14c10.json.gz",
+        "minH": 2,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 0.8828125
+      },
+      {
+        "file": "g-r14c11.json.gz",
+        "minH": 2,
+        "maxH": 61,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90234375
+      },
+      {
+        "file": "g-r14c12.json.gz",
+        "minH": 10,
+        "maxH": 75,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6484375
+      },
+      {
+        "file": "g-r14c13.json.gz",
+        "minH": 2,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.78515625
+      },
+      {
+        "file": "g-r14c14.json.gz",
+        "minH": 2,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6875
+      },
+      {
+        "file": "g-r14c15.json.gz",
+        "minH": 10,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      }
+    ],
+    [
+      {
+        "file": "g-r15c0.json.gz",
+        "minH": 11,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r15c1.json.gz",
+        "minH": 7,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r15c2.json.gz",
+        "minH": 6,
+        "maxH": 71,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r15c3.json.gz",
+        "minH": 12,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r15c4.json.gz",
+        "minH": 7,
+        "maxH": 74,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r15c5.json.gz",
+        "minH": 6,
+        "maxH": 73,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r15c6.json.gz",
+        "minH": 13,
+        "maxH": 68,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r15c7.json.gz",
+        "minH": 7,
+        "maxH": 77,
+        "availability_rate": 1,
+        "occupancy_rate": 0.6875
+      },
+      {
+        "file": "g-r15c8.json.gz",
+        "minH": 6,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r15c9.json.gz",
+        "minH": 13,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r15c10.json.gz",
+        "minH": 6,
+        "maxH": 70,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r15c11.json.gz",
+        "minH": 6,
+        "maxH": 64,
+        "availability_rate": 1,
+        "occupancy_rate": 0.84375
+      },
+      {
+        "file": "g-r15c12.json.gz",
+        "minH": 14,
+        "maxH": 78,
+        "availability_rate": 1,
+        "occupancy_rate": 0.90625
+      },
+      {
+        "file": "g-r15c13.json.gz",
+        "minH": 6,
+        "maxH": 69,
+        "availability_rate": 1,
+        "occupancy_rate": 0.9375
+      },
+      {
+        "file": "g-r15c14.json.gz",
+        "minH": 6,
+        "maxH": 72,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      },
+      {
+        "file": "g-r15c15.json.gz",
+        "minH": 14,
+        "maxH": 76,
+        "availability_rate": 1,
+        "occupancy_rate": 1
+      }
+    ]
+  ]
+}
