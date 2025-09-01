@@ -80,7 +80,7 @@ interface StreamableBSONStoreContructorOptions {
  * This class extends LuciadRIA's MemoryStore to support spatial queries
  * and integration with LuciadRIA features.
  */
-export class StreamableBSONStore extends EventedSupport implements Store {
+export class StreamableJSONStore extends EventedSupport implements Store {
     private url: string;
     private fetchOptions: RequestInit;
     private descriptor: StreamableBSONGrid | undefined;
@@ -166,8 +166,8 @@ export class StreamableBSONStore extends EventedSupport implements Store {
 
         const boxFeature = new Feature(this.bounds, {}, "bounds")
         if (typeof queryLevel !== "undefined" && queryLevel < 1) {
-        //    return new ArrayCursor([boxFeature]);
-            return new ArrayCursor(this.parentCubes());
+            return new ArrayCursor([boxFeature]);
+         //   return new ArrayCursor(this.parentCubes());
         }
 
         // Normalize query bounds

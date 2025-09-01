@@ -10,7 +10,7 @@ import {QuadTreeRasterTileSetStructure} from "@luciad/ria/model/tileset/RasterTi
 import {createBounds} from "@luciad/ria/shape/ShapeFactory.js";
 import {UrlTileSetModel} from "@luciad/ria/model/tileset/UrlTileSetModel.js";
 import {RasterTileSetLayer} from "@luciad/ria/view/tileset/RasterTileSetLayer.js";
-import {StreamableBSONStore} from "../../modules/luciad/models/bsonstore/StreamableBSONStore.ts";
+import {StreamableJSONStore} from "../../modules/luciad/models/bsonstore/StreamableJSONStore.ts";
 import {CanopyPainter} from "../../modules/luciad/painters/CanopyPainter.ts";
 import {FeatureModel} from "@luciad/ria/model/feature/FeatureModel.js";
 import {Bounds} from "@luciad/ria/shape/Bounds.js";
@@ -53,18 +53,18 @@ function LoadLayers(map: WebGLMap) {
         label: "OpenStreetMap"
     });
     map.layerTree.addChild(layer);
-    loadTheaters(map);
+    loadCubesAsTiles(map);
 }
 
 // Using  WFSFeatureStore.createFromUR
-function loadTheaters(map: WebGLMap) {
+function loadCubesAsTiles(map: WebGLMap) {
 
     const reference = getReference("EPSG:4326");
-    const gridStore = new StreamableBSONStore({url: "./data/datasetHuge/grid-metadata.json"});
+    const gridStore = new StreamableJSONStore({url: "./data/datasetHuge/grid-metadata.json"});
     const gridModel = new FeatureModel(gridStore, {reference});
 
     const gridLayer =  new FeatureLayer(gridModel, {
-        label: "Grido",
+        label: "Canopy as Cubes",
         selectable: true,
       //  hoverable: true,
         loadingStrategy: new LoadSpatially({
